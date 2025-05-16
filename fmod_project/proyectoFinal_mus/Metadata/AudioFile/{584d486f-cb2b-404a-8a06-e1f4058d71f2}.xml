@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
-	<object class="AudioFile" id="{c4da41d7-177a-4bc0-a43d-5c7588f2ca16}">
+	<object class="AudioFile" id="{584d486f-cb2b-404a-8a06-e1f4058d71f2}">
 		<property name="assetPath">
-			<value>TRACKS_DORIAN/SYNTH3_Dm_1.ogg</value>
+			<value>TRACKS_DORIAN/BASS_6_GM.ogg</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>
@@ -11,7 +11,7 @@
 			<value>2</value>
 		</property>
 		<property name="length">
-			<value>8.8571428571428577</value>
+			<value>3.4285714285714284</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{d5307c3a-b5a8-491b-a743-f2a92cfcc17b}</destination>
