@@ -1947,6 +1947,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{7d9b94a4-3ee4-42d4-a6e2-a5cc15dc61ef}">
+		<property name="volume">
+			<value>2</value>
+		</property>
 		<property name="name">
 			<value>MELODIESV3</value>
 		</property>
