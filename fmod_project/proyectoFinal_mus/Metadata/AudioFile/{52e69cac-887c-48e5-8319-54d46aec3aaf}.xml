@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{52e69cac-887c-48e5-8319-54d46aec3aaf}">
+		<property name="assetPath">
+			<value>TRACKS_LYDIAN/HARP4_1.ogg</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>4.4444444444444446</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{d5307c3a-b5a8-491b-a743-f2a92cfcc17b}</destination>
+		</relationship>
+	</object>
+</objects>
