@@ -1,4 +1,4 @@
-<REAPER_PROJECT 0.1 "7.34/win64" 1747502498
+<REAPER_PROJECT 0.1 "7.34/win64" 1747498509
   <NOTES 0 2
   >
   RIPPLE 0
@@ -18,9 +18,9 @@
   VIDEO_CONFIG 0 0 65792
   PANMODE 3
   PANLAWFLAGS 3
-  CURSOR 20
-  ZOOM 0.4627969078371 0 0
-  VZOOMEX 11.25 0
+  CURSOR 0
+  ZOOM 21.65807520336928 0 0
+  VZOOMEX 11.25 1
   USE_REC_CFG 0
   RECMODE 1
   SMPTESYNC 0 30 100 40 1000 300 0 0 1 0 0
@@ -65,8 +65,8 @@
   GLOBAL_AUTO -1
   TEMPO 120 4 4 0
   PLAYRATE 1 0 0.25 4
-  SELECTION 20 30
-  SELECTION2 20 30
+  SELECTION 0 9.5
+  SELECTION2 0 9.5
   MASTERAUTOMODE 0
   MASTERTRACKHEIGHT 0 0
   MASTERPEAKCOL 16576
@@ -1463,7 +1463,7 @@
       FADEIN 1 0 0 1 0 0 0
       FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
-      SEL 0
+      SEL 1
       IGUID {3D91E204-AE8C-492E-9551-43F5F2D5B356}
       IID 2
       NAME 01-MIDI
@@ -1518,7 +1518,7 @@
       >
     >
     <ITEM
-      POSITION 49
+      POSITION 26
       SNAPOFFS 0
       LENGTH 6
       LOOP 1
@@ -1526,7 +1526,7 @@
       FADEIN 1 0 0 1 0 0 0
       FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
-      SEL 0
+      SEL 1
       IGUID {446F6586-C418-4256-B9D2-B41E1953242A}
       IID 2
       NAME 01-MIDI
@@ -1581,7 +1581,7 @@
       >
     >
     <ITEM
-      POSITION 55
+      POSITION 32
       SNAPOFFS 0
       LENGTH 6
       LOOP 1
@@ -1589,7 +1589,7 @@
       FADEIN 1 0 0 1 0 0 0
       FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
-      SEL 0
+      SEL 1
       IGUID {FE888B96-96BB-40FC-AAAD-17037F540B07}
       IID 2
       NAME 01-MIDI
@@ -1644,7 +1644,7 @@
       >
     >
     <ITEM
-      POSITION 61
+      POSITION 38
       SNAPOFFS 0
       LENGTH 6
       LOOP 1
@@ -1652,7 +1652,7 @@
       FADEIN 1 0 0 1 0 0 0
       FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
-      SEL 0
+      SEL 1
       IGUID {966B10F4-ADAC-4552-9407-854762215D7E}
       IID 2
       NAME 01-MIDI
@@ -1707,15 +1707,15 @@
       >
     >
     <ITEM
-      POSITION 67
+      POSITION 44
       SNAPOFFS 0
       LENGTH 8
       LOOP 1
       ALLTAKES 0
       FADEIN 1 0 0 1 0 0 0
-      FADEOUT 1 4.41165382639457 0 1 0 0 0
+      FADEOUT 1 4.41165382639456 0 1 0 0 0
       MUTE 0 0
-      SEL 0
+      SEL 1
       IGUID {30B6B516-37EB-4EBC-A83D-D712441FB97E}
       IID 25
       NAME 01-MIDI-glued
@@ -1782,7 +1782,7 @@
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
     FIXEDLANES 9 0 0 0 0
-    SEL 0
+    SEL 1
     REC 0 5056 1 0 0 0 0 0
     VU 2
     TRACKHEIGHT 0 0 0 0 0 0 0
@@ -2212,7 +2212,7 @@
       FADEIN 1 0 0 1 0 0 0
       FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
-      SEL 0
+      SEL 1
       IGUID {030937FF-E687-4C4A-B8EB-F7F30BACE217}
       IID 7
       NAME 02-MIDI
@@ -2296,7 +2296,7 @@
       >
     >
     <ITEM
-      POSITION 49
+      POSITION 26
       SNAPOFFS 0
       LENGTH 6
       LOOP 0
@@ -2304,7 +2304,7 @@
       FADEIN 1 0 0 1 0 0 0
       FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
-      SEL 0
+      SEL 1
       IGUID {872F961F-0AC0-4745-83EA-EA5CD075D1AA}
       IID 7
       NAME 02-MIDI
@@ -2432,7 +2432,7 @@
       >
     >
     <ITEM
-      POSITION 55
+      POSITION 32
       SNAPOFFS 0
       LENGTH 6
       LOOP 0
@@ -2440,7 +2440,7 @@
       FADEIN 1 0 0 1 0 0 0
       FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
-      SEL 0
+      SEL 1
       IGUID {8D5313E8-793C-414F-9FAE-EA30B30199A7}
       IID 7
       NAME 02-MIDI
@@ -2576,7 +2576,7 @@
       >
     >
     <ITEM
-      POSITION 61
+      POSITION 38
       SNAPOFFS 0
       LENGTH 6
       LOOP 0
@@ -2584,7 +2584,7 @@
       FADEIN 1 0 0 1 0 0 0
       FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
-      SEL 0
+      SEL 1
       IGUID {A3C0AB7D-E73B-4F6F-B6A8-77A4F28FAE88}
       IID 7
       NAME 02-MIDI
@@ -2696,7 +2696,7 @@
       >
     >
     <ITEM
-      POSITION 67
+      POSITION 44
       SNAPOFFS 0
       LENGTH 8
       LOOP 1
@@ -2704,7 +2704,7 @@
       FADEIN 1 0 0 1 0 0 0
       FADEOUT 1 4.3738291122351 0 1 0 0 0
       MUTE 0 0
-      SEL 0
+      SEL 1
       IGUID {402977D6-52F5-47A7-9954-EC1808BDFDEE}
       IID 26
       NAME 02-MIDI-glued
@@ -4204,7 +4204,7 @@
       FADEIN 1 0 0 1 0 0 0
       FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
-      SEL 0
+      SEL 1
       IGUID {E5712B9B-CA53-4EEA-8C7D-C714E4952B13}
       IID 8
       NAME 03-MIDI
@@ -4277,7 +4277,7 @@
       >
     >
     <ITEM
-      POSITION 49
+      POSITION 26
       SNAPOFFS 0
       LENGTH 6
       LOOP 1
@@ -4285,7 +4285,7 @@
       FADEIN 1 0 0 1 0 0 0
       FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
-      SEL 0
+      SEL 1
       IGUID {07FA483C-1ECD-4117-AF93-659B65F86DC8}
       IID 8
       NAME 03-MIDI
@@ -4390,7 +4390,7 @@
       >
     >
     <ITEM
-      POSITION 55
+      POSITION 32
       SNAPOFFS 0
       LENGTH 6
       LOOP 1
@@ -4398,7 +4398,7 @@
       FADEIN 1 0 0 1 0 0 0
       FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
-      SEL 0
+      SEL 1
       IGUID {A7ADA775-62CA-4383-9656-37AE54AA2DDA}
       IID 8
       NAME 03-MIDI
@@ -4503,7 +4503,7 @@
       >
     >
     <ITEM
-      POSITION 61
+      POSITION 38
       SNAPOFFS 0
       LENGTH 6
       LOOP 1
@@ -4511,7 +4511,7 @@
       FADEIN 1 0 0 1 0 0 0
       FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
-      SEL 0
+      SEL 1
       IGUID {451CD75A-1D73-44B8-8819-3E7DE8CBC2A1}
       IID 8
       NAME 03-MIDI
@@ -6561,7 +6561,7 @@
       FADEIN 1 0 0 1 0 0 0
       FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
-      SEL 0
+      SEL 1
       IGUID {C0D7C774-18ED-41CF-B2F2-CE121BAB10DE}
       IID 20
       NAME 04-MIDI
@@ -6636,7 +6636,7 @@
       >
     >
     <ITEM
-      POSITION 49
+      POSITION 26
       SNAPOFFS 0
       LENGTH 6
       LOOP 1
@@ -6644,7 +6644,7 @@
       FADEIN 1 0 0 1 0 0 0
       FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
-      SEL 0
+      SEL 1
       IGUID {77E4097F-FC13-4451-8FCF-ABD51ECC1654}
       IID 20
       NAME 04-MIDI
@@ -6753,7 +6753,7 @@
       >
     >
     <ITEM
-      POSITION 55
+      POSITION 32
       SNAPOFFS 0
       LENGTH 6
       LOOP 1
@@ -6761,7 +6761,7 @@
       FADEIN 1 0 0 1 0 0 0
       FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
-      SEL 0
+      SEL 1
       IGUID {4274A387-A4E1-46B3-9EC3-32B78E107148}
       IID 20
       NAME 04-MIDI
@@ -6868,7 +6868,7 @@
       >
     >
     <ITEM
-      POSITION 61
+      POSITION 38
       SNAPOFFS 0
       LENGTH 6
       LOOP 1
@@ -6876,7 +6876,7 @@
       FADEIN 1 0 0 1 0 0 0
       FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
-      SEL 0
+      SEL 1
       IGUID {CAD3379F-DE01-46C6-864B-EE57F9303696}
       IID 20
       NAME 04-MIDI
@@ -6953,7 +6953,7 @@
       >
     >
     <ITEM
-      POSITION 67
+      POSITION 44
       SNAPOFFS 0
       LENGTH 6
       LOOP 1
@@ -6961,7 +6961,7 @@
       FADEIN 1 0 0 1 0 0 0
       FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
-      SEL 0
+      SEL 1
       IGUID {E2BE2649-551D-42EF-A9D6-CFC5A73595BE}
       IID 20
       NAME 04-MIDI
@@ -8345,7 +8345,7 @@
       WAK 0 0
     >
     <ITEM
-      POSITION 49
+      POSITION 26
       SNAPOFFS 0
       LENGTH 13
       LOOP 1
@@ -8353,7 +8353,7 @@
       FADEIN 1 0 0 1 0 0 0
       FADEOUT 1 0.05275108248398 0 1 0 0 0
       MUTE 0 0
-      SEL 0
+      SEL 1
       IGUID {5D226A3C-EF05-473D-951D-6BC1E7E66D16}
       IID 42
       NAME 05-MIDI
@@ -8468,7 +8468,7 @@
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
     FIXEDLANES 9 0 0 0 0
-    SEL 1
+    SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 2
     TRACKHEIGHT 0 0 0 0 0 0 0
@@ -9763,7 +9763,7 @@
       WAK 0 0
     >
     <ITEM
-      POSITION 49
+      POSITION 26
       SNAPOFFS 0
       LENGTH 13
       LOOP 1
