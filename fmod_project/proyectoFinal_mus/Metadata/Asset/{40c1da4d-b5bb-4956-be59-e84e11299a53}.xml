@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="EncodableAsset" id="{40c1da4d-b5bb-4956-be59-e84e11299a53}">
+		<property name="assetPath">
+			<value>TRACKS_PHRYGIAN/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{d5307c3a-b5a8-491b-a743-f2a92cfcc17b}</destination>
+		</relationship>
+	</object>
+</objects>
