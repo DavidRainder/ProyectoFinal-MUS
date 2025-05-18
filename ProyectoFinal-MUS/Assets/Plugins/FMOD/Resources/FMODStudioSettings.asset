@@ -310,8 +310,8 @@ MonoBehaviour:
   sourceProjectPath: ../fmod_project/proyectoFinal_mus/proyectoFinal_mus.fspro
   sourceBankPath: ../fmod_project/proyectoFinal_mus/Build
   sourceBankPathUnformatted: 
-  BankRefreshCooldown: 5
-  ShowBankRefreshWindow: 1
+  BankRefreshCooldown: 1
+  ShowBankRefreshWindow: 0
   AutomaticEventLoading: 1
   BankLoadType: 0
   AutomaticSampleLoading: 0

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="MixerGroup" id="{f889cf56-d324-424a-9e28-9e16a5304055}">
+		<property name="name">
+			<value>Arpsin_Phrygian</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{b5bb5234-9dfa-438b-8eea-741e537fd34d}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{ce1d5782-769c-4941-b9c4-c3b3b6e8dbe4}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{1ce918e4-7ba6-4d7b-bb34-7568a1ee3d1c}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{b5bb5234-9dfa-438b-8eea-741e537fd34d}">
+		<relationship name="effects">
+			<destination>{5012e514-76ca-4c81-9b01-f1c8de4635cb}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{ce1d5782-769c-4941-b9c4-c3b3b6e8dbe4}" />
+	<object class="MixerBusFader" id="{5012e514-76ca-4c81-9b01-f1c8de4635cb}" />
+</objects>

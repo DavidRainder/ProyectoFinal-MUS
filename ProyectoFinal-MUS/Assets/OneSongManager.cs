@@ -61,13 +61,12 @@ public class OneSongManager : MonoBehaviour
 
     IEnumerator AddDSPS_Delayed()
     {
-        yield return new WaitForSeconds(1.0f);
         for (int i = 0; i < _dsps.Count; ++i)
         {
             FMOD.RESULT res= RuntimeManager.StudioSystem.getBusByID(_guids[i], out FMOD.Studio.Bus bus);
             bus.lockChannelGroup();
             RuntimeManager.StudioSystem.update();
-            yield return new WaitForSeconds(0.05f);
+            yield return new WaitForEndOfFrame();
             bus.getChannelGroup(out FMOD.ChannelGroup instanceGroup);
 
             _emitter.EventInstance.getChannelGroup(out FMOD.ChannelGroup instanceGroup_miau);

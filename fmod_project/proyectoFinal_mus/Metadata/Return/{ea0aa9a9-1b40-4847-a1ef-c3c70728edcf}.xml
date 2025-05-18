@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="MixerReturn" id="{ea0aa9a9-1b40-4847-a1ef-c3c70728edcf}">
+		<property name="name">
+			<value>SYNTH2_DORIAN</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{cba483cf-7ced-4244-9053-39ade27bba7d}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{d4ea9d4e-568b-48c4-8a2c-ce2fcf287ad1}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{e8f0959b-2c54-4769-892c-1470415049d0}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{cba483cf-7ced-4244-9053-39ade27bba7d}">
+		<relationship name="effects">
+			<destination>{c37111b7-0bfd-4865-96bc-c1fc98304fe1}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{d4ea9d4e-568b-48c4-8a2c-ce2fcf287ad1}" />
+	<object class="MixerBusFader" id="{c37111b7-0bfd-4865-96bc-c1fc98304fe1}" />
+</objects>

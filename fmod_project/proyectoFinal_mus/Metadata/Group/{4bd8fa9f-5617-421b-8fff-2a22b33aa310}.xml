@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="MixerGroup" id="{4bd8fa9f-5617-421b-8fff-2a22b33aa310}">
+		<property name="name">
+			<value>Perc3_Phrygian</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{ec8a9adb-5864-4dbc-9718-d789f3e2e6c6}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{e14a26c9-c7cf-40e1-99a3-8619f98c2c4c}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{1ce918e4-7ba6-4d7b-bb34-7568a1ee3d1c}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{ec8a9adb-5864-4dbc-9718-d789f3e2e6c6}">
+		<relationship name="effects">
+			<destination>{b9b2104c-2cda-4bcc-a625-3fc3bace894f}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{e14a26c9-c7cf-40e1-99a3-8619f98c2c4c}" />
+	<object class="MixerBusFader" id="{b9b2104c-2cda-4bcc-a625-3fc3bace894f}" />
+</objects>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="MixerReturn" id="{d4679e38-7d12-403a-abb9-a7871b8cc58a}">
+		<property name="name">
+			<value>LOOP1_AEOLIAN</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{b18cce12-eea9-4ebe-9c55-549decc0c4b0}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{a5072030-5bc1-4f40-bbbd-198d49e1fab1}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{6a7753a1-ff4b-4231-bf83-b3d21a6df949}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{b18cce12-eea9-4ebe-9c55-549decc0c4b0}">
+		<relationship name="effects">
+			<destination>{322fa7d8-bbdb-4d9f-958e-acc2506611a6}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{a5072030-5bc1-4f40-bbbd-198d49e1fab1}" />
+	<object class="MixerBusFader" id="{322fa7d8-bbdb-4d9f-958e-acc2506611a6}" />
+</objects>

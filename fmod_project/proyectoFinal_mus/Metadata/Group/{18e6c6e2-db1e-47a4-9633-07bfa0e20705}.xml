@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="MixerGroup" id="{18e6c6e2-db1e-47a4-9633-07bfa0e20705}">
+		<property name="name">
+			<value>Aeolian_Group</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{6c515bed-e924-4b04-89cc-e6e4438e723f}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{e8b6e28e-b621-477a-815b-8a66fb9a1b68}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{818e59fc-b28e-4b38-8b0e-1c6210fa2e0c}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{6c515bed-e924-4b04-89cc-e6e4438e723f}">
+		<relationship name="effects">
+			<destination>{0bb90a18-8a52-4e3b-b734-820f83e91ad6}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{e8b6e28e-b621-477a-815b-8a66fb9a1b68}" />
+	<object class="MixerBusFader" id="{0bb90a18-8a52-4e3b-b734-820f83e91ad6}" />
+</objects>

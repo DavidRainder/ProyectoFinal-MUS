@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="MixerGroup" id="{5864d62b-a0c9-4f84-bc41-e656e04aa067}">
+		<property name="name">
+			<value>Bass_Dorian</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{1e7f41ed-47fb-43a3-b793-dd95bef1b3c4}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{1e46a956-e3e8-48c8-8622-c761b4903eed}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{4af5934a-eb12-4d6a-acc5-799aa98d6868}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{1e7f41ed-47fb-43a3-b793-dd95bef1b3c4}">
+		<relationship name="effects">
+			<destination>{4cb824a1-ef98-4b3f-b379-3ece255fbcbe}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{1e46a956-e3e8-48c8-8622-c761b4903eed}" />
+	<object class="MixerBusFader" id="{4cb824a1-ef98-4b3f-b379-3ece255fbcbe}" />
+</objects>

@@ -39,7 +39,7 @@ MonoBehaviour:
   Path: ../fmod_project/proyectoFinal_mus/Build/Desktop/Narrations.bank
   Name: Narrations
   StudioPath: bank:/Narrations
-  lastModified: 638831296260467335
+  lastModified: 638831987008539851
   FileSizes:
   - Name: Desktop
     Value: 154368
@@ -59,10 +59,10 @@ MonoBehaviour:
   Path: ../fmod_project/proyectoFinal_mus/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638831967418078959
+  lastModified: 638832052679627572
   FileSizes:
   - Name: Desktop
-    Value: 6108
+    Value: 14868
   Exists: 1
 --- !u!114 &-7506483663961777129
 MonoBehaviour:
@@ -184,6 +184,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 61746
+--- !u!114 &-5127145189726933013
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/AEOLIAN/AREA
+  m_EditorClassIdentifier: 
+  Name: AREA
+  StudioPath: 
+  Min: 1
+  Max: 5
+  Default: 1
+  ID:
+    data1: 3095331514
+    data2: 154813111
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &-4658777309840439557
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -262,6 +286,36 @@ MonoBehaviour:
   Type: 1
   IsGlobal: 0
   Labels: []
+  Exists: 1
+--- !u!114 &-3575471420634604071
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/AEOLIAN/FromArea
+  m_EditorClassIdentifier: 
+  Name: FromArea
+  StudioPath: 
+  Min: 0
+  Max: 5
+  Default: 0
+  ID:
+    data1: 923682737
+    data2: 1370964173
+  Type: 2
+  IsGlobal: 0
+  Labels:
+  - NONE
+  - AREA1
+  - AREA2
+  - AREA3
+  - AREA4
+  - AREA5
   Exists: 1
 --- !u!114 &-2926078789187340219
 MonoBehaviour:
@@ -391,7 +445,7 @@ MonoBehaviour:
   Banks:
   - {fileID: 6287085521676543791}
   IsStream: 1
-  Is3D: 0
+  Is3D: 1
   IsOneShot: 0
   Parameters:
   - {fileID: -3849756536266434252}
@@ -444,7 +498,7 @@ MonoBehaviour:
   Banks:
   - {fileID: 6287085521676543791}
   IsStream: 0
-  Is3D: 0
+  Is3D: 1
   IsOneShot: 0
   Parameters:
   - {fileID: 2531319752031038612}
@@ -480,13 +534,14 @@ MonoBehaviour:
   - {fileID: 1771672043573664442}
   - {fileID: -2013837172801851991}
   - {fileID: -4658777309840439557}
+  - {fileID: 1739085520775846806}
   EditorParameters: []
   MasterBanks:
   - {fileID: -8144985360941192011}
   StringsBanks:
   - {fileID: 8123392360613930775}
   cacheVersion: 131847
-  cacheTime: 638831983995152737
+  cacheTime: 638832052681846691
   SerializableEventsDict:
   - key: event:/DORIAN
     index: 0
@@ -506,6 +561,37 @@ MonoBehaviour:
     index: 7
   - key: event:/LightsOn
     index: 8
+  - key: event:/AEOLIAN
+    index: 9
+--- !u!114 &1739085520775846806
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AEOLIAN
+  m_EditorClassIdentifier: 
+  Path: event:/AEOLIAN
+  Guid:
+    Data1: 339078599
+    Data2: 1321809615
+    Data3: -1624840808
+    Data4: -352310517
+  Banks:
+  - {fileID: 6287085521676543791}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -3575471420634604071}
+  - {fileID: -5127145189726933013}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 104000
 --- !u!114 &1762042350829140319
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -577,7 +663,7 @@ MonoBehaviour:
   Path: ../fmod_project/proyectoFinal_mus/Build/Desktop/SFX.bank
   Name: SFX
   StudioPath: bank:/SFX
-  lastModified: 638831296261113535
+  lastModified: 638831987009300663
   FileSizes:
   - Name: Desktop
     Value: 60480
@@ -627,7 +713,7 @@ MonoBehaviour:
   Banks:
   - {fileID: 6287085521676543791}
   IsStream: 1
-  Is3D: 0
+  Is3D: 1
   IsOneShot: 0
   Parameters:
   - {fileID: -1719979508769602572}
@@ -677,10 +763,10 @@ MonoBehaviour:
   Path: ../fmod_project/proyectoFinal_mus/Build/Desktop/MUSICAMIGO.bank
   Name: MUSICAMIGO
   StudioPath: bank:/MUSICAMIGO
-  lastModified: 638831983995152737
+  lastModified: 638832052681846691
   FileSizes:
   - Name: Desktop
-    Value: 7262624
+    Value: 7691296
   Exists: 1
 --- !u!114 &6361466727253388307
 MonoBehaviour:
@@ -750,10 +836,10 @@ MonoBehaviour:
   Path: ../fmod_project/proyectoFinal_mus/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638831967418094026
+  lastModified: 638832052679647571
   FileSizes:
   - Name: Desktop
-    Value: 3568
+    Value: 6816
   Exists: 1
 --- !u!114 &8530112652690134615
 MonoBehaviour:

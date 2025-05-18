@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="MixerReturn" id="{490384db-08fd-4b70-858f-b35a40f4f500}">
+		<property name="name">
+			<value>HARP4_LYDIAN</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{ef8173b4-b70a-4da1-8a9a-6e9b308eff1c}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{cda7b16c-6d6d-47b0-aca4-76a869eb55d9}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{ebbaa935-3e9c-4ccf-88f5-1834a5b27963}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{ef8173b4-b70a-4da1-8a9a-6e9b308eff1c}">
+		<relationship name="effects">
+			<destination>{dbed7451-8a20-4d28-896c-e1c409683a5c}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{cda7b16c-6d6d-47b0-aca4-76a869eb55d9}" />
+	<object class="MixerBusFader" id="{dbed7451-8a20-4d28-896c-e1c409683a5c}" />
+</objects>

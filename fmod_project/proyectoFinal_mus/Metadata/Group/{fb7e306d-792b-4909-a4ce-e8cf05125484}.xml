@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="MixerGroup" id="{fb7e306d-792b-4909-a4ce-e8cf05125484}">
+		<property name="name">
+			<value>Sample_Lydian</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{2b6a53c8-3ac2-4fc6-8d47-35bfea3b955e}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{820b1204-43b5-49c0-b9cc-25f85c77fb43}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{67acdc88-f94c-4824-bd60-b3a5866d8aba}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{2b6a53c8-3ac2-4fc6-8d47-35bfea3b955e}">
+		<relationship name="effects">
+			<destination>{db0effdb-cca7-4cb5-8020-113cb91d5b45}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{820b1204-43b5-49c0-b9cc-25f85c77fb43}" />
+	<object class="MixerBusFader" id="{db0effdb-cca7-4cb5-8020-113cb91d5b45}" />
+</objects>

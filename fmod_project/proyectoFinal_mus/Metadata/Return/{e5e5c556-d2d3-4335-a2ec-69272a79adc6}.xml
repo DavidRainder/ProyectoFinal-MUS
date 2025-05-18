@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="MixerReturn" id="{e5e5c556-d2d3-4335-a2ec-69272a79adc6}">
+		<property name="name">
+			<value>MARIMBA_DORIAN</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{fb3fa582-a0ba-4d5c-8424-63386b1dfa1c}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{0aec911c-9342-4125-9600-d06e6e66047f}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{94cef2c4-3095-40e8-af4c-de4f4fa259b7}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{fb3fa582-a0ba-4d5c-8424-63386b1dfa1c}">
+		<relationship name="effects">
+			<destination>{65fa7520-659d-4b28-9bb5-3f9259e21859}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{0aec911c-9342-4125-9600-d06e6e66047f}" />
+	<object class="MixerBusFader" id="{65fa7520-659d-4b28-9bb5-3f9259e21859}" />
+</objects>

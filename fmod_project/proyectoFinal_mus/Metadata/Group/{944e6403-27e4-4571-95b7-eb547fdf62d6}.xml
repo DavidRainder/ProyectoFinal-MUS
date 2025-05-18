@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="MixerGroup" id="{944e6403-27e4-4571-95b7-eb547fdf62d6}">
+		<property name="name">
+			<value>Arphum_Phrygian</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{08435edb-e591-4db6-9199-563252c21c93}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{e7cd5f41-2957-402a-af5f-e833d90cd12e}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{1ce918e4-7ba6-4d7b-bb34-7568a1ee3d1c}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{08435edb-e591-4db6-9199-563252c21c93}">
+		<relationship name="effects">
+			<destination>{ebb676bd-dbda-416b-981b-4011e71274d5}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{e7cd5f41-2957-402a-af5f-e833d90cd12e}" />
+	<object class="MixerBusFader" id="{ebb676bd-dbda-416b-981b-4011e71274d5}" />
+</objects>
