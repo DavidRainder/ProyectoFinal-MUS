@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="MixerReturn" id="{16ccc56b-48bc-4617-b654-27fb14e94249}">
+		<property name="name">
+			<value>PIANO_LOCRIO</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{190dd746-1ee2-466a-9752-59d85a26d3ad}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{d7ee714b-9033-47df-bf3f-aaae72ae9543}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{689d13fd-3cfa-4012-bbb3-670232d33cbe}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{190dd746-1ee2-466a-9752-59d85a26d3ad}">
+		<relationship name="effects">
+			<destination>{b569ba09-7e30-40a5-9bd1-1ae9a50a6275}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{d7ee714b-9033-47df-bf3f-aaae72ae9543}" />
+	<object class="MixerBusFader" id="{b569ba09-7e30-40a5-9bd1-1ae9a50a6275}" />
+</objects>

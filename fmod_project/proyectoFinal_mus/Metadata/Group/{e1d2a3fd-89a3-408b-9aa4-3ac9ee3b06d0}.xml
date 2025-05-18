@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="MixerGroup" id="{e1d2a3fd-89a3-408b-9aa4-3ac9ee3b06d0}">
+		<property name="name">
+			<value>Guitar_Locrio</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{a62c947c-48b1-493b-96ed-7145e2ecce68}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{06acd642-0b1c-4526-9952-9321d64718ee}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{fbef0914-6424-4740-b748-e6148749fc88}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{a62c947c-48b1-493b-96ed-7145e2ecce68}">
+		<relationship name="effects">
+			<destination>{a04816b0-7293-46a8-96d4-91f7353e1610}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{06acd642-0b1c-4526-9952-9321d64718ee}" />
+	<object class="MixerBusFader" id="{a04816b0-7293-46a8-96d4-91f7353e1610}" />
+</objects>

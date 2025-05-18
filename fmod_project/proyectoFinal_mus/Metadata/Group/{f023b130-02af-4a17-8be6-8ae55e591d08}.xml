@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="MixerGroup" id="{f023b130-02af-4a17-8be6-8ae55e591d08}">
+		<property name="name">
+			<value>Jonic_Group</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{52f5b83a-e8da-4a00-bb7b-c51219b65e31}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{20c84d2c-6b48-4b7c-8820-b2a139173587}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{818e59fc-b28e-4b38-8b0e-1c6210fa2e0c}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{52f5b83a-e8da-4a00-bb7b-c51219b65e31}">
+		<relationship name="effects">
+			<destination>{491d447f-1aa0-4f8f-adf7-57fe606115ce}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{20c84d2c-6b48-4b7c-8820-b2a139173587}" />
+	<object class="MixerBusFader" id="{491d447f-1aa0-4f8f-adf7-57fe606115ce}" />
+</objects>

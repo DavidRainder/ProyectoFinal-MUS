@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{85456ea5-57cf-4c78-9a90-fffbd0fa1757}">
+		<property name="name">
+			<value>Tonality</value>
+		</property>
+		<relationship name="folder">
+			<destination>{492e834e-015c-467e-8d51-d494449f5402}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{d50196f9-d812-47b1-a705-147a7e448b42}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{d50196f9-d812-47b1-a705-147a7e448b42}">
+		<property name="parameterType">
+			<value>2</value>
+		</property>
+		<property name="maximum">
+			<value>3</value>
+		</property>
+		<property name="enumerationLabels">
+			<value>Dm</value>
+			<value>GM</value>
+			<value>Mixed</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

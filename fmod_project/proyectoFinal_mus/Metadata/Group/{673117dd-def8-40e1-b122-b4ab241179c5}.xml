@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="MixerGroup" id="{673117dd-def8-40e1-b122-b4ab241179c5}">
+		<property name="name">
+			<value>Bass_Mixolidian</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{ef6e8f05-8fd6-4f7d-b076-05cf2f884985}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{b2044fa7-7a2d-488a-9678-3053baa62e62}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{dec07c4d-727a-4c8a-962d-9f7d8ea173a9}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{ef6e8f05-8fd6-4f7d-b076-05cf2f884985}">
+		<relationship name="effects">
+			<destination>{6347636e-0417-4511-b4dc-48e92317c607}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{b2044fa7-7a2d-488a-9678-3053baa62e62}" />
+	<object class="MixerBusFader" id="{6347636e-0417-4511-b4dc-48e92317c607}" />
+</objects>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="MixerReturn" id="{8a2e7e32-eac6-4b59-bc59-0625140a2980}">
+		<property name="name">
+			<value>DRUMS_LOCRIO</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{af9d1ba0-e46d-416d-88b2-8c8e1b34aa2b}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{cf2a2758-d278-4042-8b94-861b132a5387}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{728cbf58-1554-423e-bab8-774eca79d254}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{af9d1ba0-e46d-416d-88b2-8c8e1b34aa2b}">
+		<relationship name="effects">
+			<destination>{1ec8aa26-74a1-4f14-91b9-537e7331e6f8}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{cf2a2758-d278-4042-8b94-861b132a5387}" />
+	<object class="MixerBusFader" id="{1ec8aa26-74a1-4f14-91b9-537e7331e6f8}" />
+</objects>

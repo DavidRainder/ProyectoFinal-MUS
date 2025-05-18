@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="MixerGroup" id="{70ed9ac8-7f84-415c-9fff-eff1a72b4242}">
+		<property name="name">
+			<value>Xilophone_Jonic</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{f1b7e92a-ca15-4f8a-8189-29648686e723}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{03d17ce6-aece-4e6e-b3fb-7b72a954dca9}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{f023b130-02af-4a17-8be6-8ae55e591d08}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{f1b7e92a-ca15-4f8a-8189-29648686e723}">
+		<relationship name="effects">
+			<destination>{de50c57b-a641-462d-bdf1-1106f68d1d99}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{03d17ce6-aece-4e6e-b3fb-7b72a954dca9}" />
+	<object class="MixerBusFader" id="{de50c57b-a641-462d-bdf1-1106f68d1d99}" />
+</objects>

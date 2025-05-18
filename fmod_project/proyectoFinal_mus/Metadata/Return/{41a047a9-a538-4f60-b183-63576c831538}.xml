@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="MixerReturn" id="{41a047a9-a538-4f60-b183-63576c831538}">
+		<property name="name">
+			<value>ORGAN_LOCRIO</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{99bd5f10-11a9-4ff4-9bdc-b29ba97f08c0}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{1210fdce-471e-4188-95f4-bd2dddd2f0ac}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{2b96d2a5-7494-497b-9cfd-29b388e11326}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{99bd5f10-11a9-4ff4-9bdc-b29ba97f08c0}">
+		<relationship name="effects">
+			<destination>{b78a2c39-302e-4124-99cc-9233dc76a9a3}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{1210fdce-471e-4188-95f4-bd2dddd2f0ac}" />
+	<object class="MixerBusFader" id="{b78a2c39-302e-4124-99cc-9233dc76a9a3}" />
+</objects>

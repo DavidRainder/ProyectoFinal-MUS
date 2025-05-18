@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{5f5a2f32-b6bc-4f12-8d09-98588155e1c6}">
+		<property name="assetPath">
+			<value>TRACKS_LYDIAN/SYNTH1.ogg</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>6.4444444444444446</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{d5307c3a-b5a8-491b-a743-f2a92cfcc17b}</destination>
+		</relationship>
+	</object>
+</objects>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="MixerReturn" id="{49175077-9647-4cf9-8c0b-f8f20eae95ae}">
+		<property name="name">
+			<value>BASS_LOCRIO</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{edb14ae4-43a5-439d-8183-63fd78aba0a3}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{4d86a623-4a58-4f30-a05b-f2d49b117fcb}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{7b11ee08-5691-4058-891c-a1bad6d8e6c0}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{edb14ae4-43a5-439d-8183-63fd78aba0a3}">
+		<relationship name="effects">
+			<destination>{2aa0ab5a-a757-4545-ae27-ee5dcb5353d0}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{4d86a623-4a58-4f30-a05b-f2d49b117fcb}" />
+	<object class="MixerBusFader" id="{2aa0ab5a-a757-4545-ae27-ee5dcb5353d0}" />
+</objects>

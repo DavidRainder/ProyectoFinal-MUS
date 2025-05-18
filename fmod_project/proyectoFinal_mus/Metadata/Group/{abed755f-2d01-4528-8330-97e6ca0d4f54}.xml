@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="MixerGroup" id="{abed755f-2d01-4528-8330-97e6ca0d4f54}">
+		<property name="name">
+			<value>HigherOrgan_Locrio</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{da713d02-e101-4328-a139-23157de05699}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{71f15af1-8240-482e-9661-813882ae0343}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{fbef0914-6424-4740-b748-e6148749fc88}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{da713d02-e101-4328-a139-23157de05699}">
+		<relationship name="effects">
+			<destination>{e7864315-3e74-47e7-9406-3504dca3f14a}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{71f15af1-8240-482e-9661-813882ae0343}" />
+	<object class="MixerBusFader" id="{e7864315-3e74-47e7-9406-3504dca3f14a}" />
+</objects>

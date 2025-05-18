@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="MixerReturn" id="{101ffa4d-8913-4316-a6ba-136247e73697}">
+		<property name="name">
+			<value>CLAPS_MIXO</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{003c732a-2618-4934-871d-02b4abf157c2}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{b390c0a0-8019-4d64-ab93-9ba69ddc681e}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{f154d041-7057-4f51-a121-b1533ab1a08d}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{003c732a-2618-4934-871d-02b4abf157c2}">
+		<relationship name="effects">
+			<destination>{0bfe0292-dc2c-4100-9959-d95960069db9}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{b390c0a0-8019-4d64-ab93-9ba69ddc681e}" />
+	<object class="MixerBusFader" id="{0bfe0292-dc2c-4100-9959-d95960069db9}" />
+</objects>

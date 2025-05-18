@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="MixerReturn" id="{3533b9ad-0134-44f2-81fe-b1fac7ad2386}">
+		<property name="name">
+			<value>CHORDS_JONIC_RETURN</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{e277f455-d7ce-4e2c-b299-26574e073efa}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{57a0a190-d686-4d64-9987-ad5d0a90c8e7}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{85362ac0-a7b8-4c56-aaf2-8ec295281520}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{e277f455-d7ce-4e2c-b299-26574e073efa}">
+		<relationship name="effects">
+			<destination>{354bad9e-3512-408f-b35a-3fc96e7fbe84}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{57a0a190-d686-4d64-9987-ad5d0a90c8e7}" />
+	<object class="MixerBusFader" id="{354bad9e-3512-408f-b35a-3fc96e7fbe84}" />
+</objects>

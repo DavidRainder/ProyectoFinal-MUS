@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="EncodableAsset" id="{547c6527-9869-4fdd-98d4-e8824c40260f}">
+		<property name="assetPath">
+			<value>TRACKS_LYDIAN/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{d5307c3a-b5a8-491b-a743-f2a92cfcc17b}</destination>
+		</relationship>
+	</object>
+</objects>

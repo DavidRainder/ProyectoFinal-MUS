@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="MixerGroup" id="{11ec8a74-8cf3-44a5-a7b2-fdfcd9042dfa}">
+		<property name="name">
+			<value>Harp_Jonic</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{3ca04e96-dada-4a53-88ed-59e442ec82f7}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{5f1782ff-8330-41f7-ab76-4cff9999c1ec}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{f023b130-02af-4a17-8be6-8ae55e591d08}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{3ca04e96-dada-4a53-88ed-59e442ec82f7}">
+		<relationship name="effects">
+			<destination>{d9f22bcd-15af-4fdc-b1b9-f147f9551c38}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{5f1782ff-8330-41f7-ab76-4cff9999c1ec}" />
+	<object class="MixerBusFader" id="{d9f22bcd-15af-4fdc-b1b9-f147f9551c38}" />
+</objects>

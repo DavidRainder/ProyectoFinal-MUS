@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{595f0de5-1c0c-4506-b510-4364f32833c5}">
+		<property name="name">
+			<value>FromSynth3</value>
+		</property>
+		<relationship name="folder">
+			<destination>{492e834e-015c-467e-8d51-d494449f5402}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{401b73cd-b069-48ea-972d-5a77c0ca0ed4}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{401b73cd-b069-48ea-972d-5a77c0ca0ed4}">
+		<property name="parameterType">
+			<value>1</value>
+		</property>
+		<property name="maximum">
+			<value>2</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

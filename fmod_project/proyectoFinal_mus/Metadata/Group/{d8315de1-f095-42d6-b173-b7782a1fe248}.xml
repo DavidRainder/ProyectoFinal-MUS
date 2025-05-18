@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="MixerGroup" id="{d8315de1-f095-42d6-b173-b7782a1fe248}">
+		<property name="name">
+			<value>Perc_Mixolidian</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{03a3c841-2343-497f-b5d0-529765ed8d82}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{abbbd0c2-6cf8-4e86-8487-0a4e2bfbb19c}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{dec07c4d-727a-4c8a-962d-9f7d8ea173a9}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{03a3c841-2343-497f-b5d0-529765ed8d82}">
+		<relationship name="effects">
+			<destination>{b076b46a-e8db-41b5-901e-df47c2dc0cfa}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{abbbd0c2-6cf8-4e86-8487-0a4e2bfbb19c}" />
+	<object class="MixerBusFader" id="{b076b46a-e8db-41b5-901e-df47c2dc0cfa}" />
+</objects>

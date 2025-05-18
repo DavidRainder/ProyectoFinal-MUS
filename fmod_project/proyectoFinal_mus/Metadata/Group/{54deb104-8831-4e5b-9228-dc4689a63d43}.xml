@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="MixerGroup" id="{54deb104-8831-4e5b-9228-dc4689a63d43}">
+		<property name="name">
+			<value>Mandolin_Mixolidian</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{4ad03cab-df1a-468c-8cc0-8373782d54d0}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{ef46ac21-6eaa-43f2-a1a6-d6dc76969ea3}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{dec07c4d-727a-4c8a-962d-9f7d8ea173a9}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{4ad03cab-df1a-468c-8cc0-8373782d54d0}">
+		<relationship name="effects">
+			<destination>{f9386bda-9378-4f53-bbcb-4b09c0d6a7e4}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{ef46ac21-6eaa-43f2-a1a6-d6dc76969ea3}" />
+	<object class="MixerBusFader" id="{f9386bda-9378-4f53-bbcb-4b09c0d6a7e4}" />
+</objects>

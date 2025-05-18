@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="MixerGroup" id="{ce93bbc8-c378-4396-9fb3-0ddab854d99b}">
+		<property name="name">
+			<value>JoniCO</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{5bd2b485-01a4-4919-80ba-79fa335633b3}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{3c1c6a8f-baab-4f86-b78e-4d00ed5f38eb}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{818e59fc-b28e-4b38-8b0e-1c6210fa2e0c}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{5bd2b485-01a4-4919-80ba-79fa335633b3}">
+		<relationship name="effects">
+			<destination>{f005a78d-2ba8-4b58-b123-18b26657aa7d}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{3c1c6a8f-baab-4f86-b78e-4d00ed5f38eb}" />
+	<object class="MixerBusFader" id="{f005a78d-2ba8-4b58-b123-18b26657aa7d}" />
+</objects>
