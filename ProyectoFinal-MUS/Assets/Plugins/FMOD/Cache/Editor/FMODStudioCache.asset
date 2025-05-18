@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-8640875519490468755
+--- !u!114 &-9061242716234211214
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -9,21 +9,26 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/LOCRIO/LocrioZones
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/LYDIAN
   m_EditorClassIdentifier: 
-  Name: LocrioZones
-  StudioPath: 
-  Min: 1
-  Max: 4
-  Default: 1
-  ID:
-    data1: 3627299238
-    data2: 1726471504
-  Type: 1
-  IsGlobal: 0
-  Labels: []
-  Exists: 1
+  Path: event:/LYDIAN
+  Guid:
+    Data1: 1487895227
+    Data2: 1140383269
+    Data3: -635572860
+    Data4: -1401115335
+  Banks:
+  - {fileID: 6287085521676543791}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -5762049317315727694}
+  - {fileID: 3816194646893518343}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 31111
 --- !u!114 &-8398001353039294799
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39,7 +44,7 @@ MonoBehaviour:
   Path: ../fmod_project/proyectoFinal_mus/Build/Desktop/Narrations.bank
   Name: Narrations
   StudioPath: bank:/Narrations
-  lastModified: 638831987008539851
+  lastModified: 638832088950279949
   FileSizes:
   - Name: Desktop
     Value: 154368
@@ -59,12 +64,260 @@ MonoBehaviour:
   Path: ../fmod_project/proyectoFinal_mus/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638832052679627572
+  lastModified: 638832089655190053
   FileSizes:
   - Name: Desktop
-    Value: 14868
+    Value: 718432
   Exists: 1
---- !u!114 &-7506483663961777129
+--- !u!114 &-7340494106315047108
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/AEOLIAN/FromArea
+  m_EditorClassIdentifier: 
+  Name: FromArea
+  StudioPath: 
+  Min: 0
+  Max: 5
+  Default: 0
+  ID:
+    data1: 923682737
+    data2: 1370964173
+  Type: 2
+  IsGlobal: 0
+  Labels:
+  - NONE
+  - AREA1
+  - AREA2
+  - AREA3
+  - AREA4
+  - AREA5
+  Exists: 1
+--- !u!114 &-6806311065046093324
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/MIXOLYDIAN/FromZoneMixolydian
+  m_EditorClassIdentifier: 
+  Name: FromZoneMixolydian
+  StudioPath: 
+  Min: 0
+  Max: 6
+  Default: 0
+  ID:
+    data1: 2992538647
+    data2: 1415342547
+  Type: 2
+  IsGlobal: 0
+  Labels:
+  - NONE
+  - ZONE1
+  - ZONE2
+  - ZONE3
+  - ZONE4
+  - ZONE5
+  - ZONE6
+  Exists: 1
+--- !u!114 &-6618364001394376893
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/PHRYGIAN/Zone
+  m_EditorClassIdentifier: 
+  Name: Zone
+  StudioPath: 
+  Min: 1
+  Max: 8
+  Default: 1
+  ID:
+    data1: 2002774617
+    data2: 1945939788
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &-6190650968491045070
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LOCRIO/instruments
+  m_EditorClassIdentifier: 
+  Name: instruments
+  StudioPath: 
+  Min: 0
+  Max: 4
+  Default: 0
+  ID:
+    data1: 1604675919
+    data2: 4061397279
+  Type: 2
+  IsGlobal: 0
+  Labels:
+  - ORGAN
+  - PIANO
+  - ORGAN & PIANO
+  - ORGAN & HIGH ORGAN
+  - ALL
+  Exists: 1
+--- !u!114 &-5762049317315727694
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LYDIAN/Zone
+  m_EditorClassIdentifier: 
+  Name: Zone
+  StudioPath: 
+  Min: 1
+  Max: 8
+  Default: 1
+  ID:
+    data1: 2002774617
+    data2: 1945939788
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &-5623938919841156603
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/ambience1
+  m_EditorClassIdentifier: 
+  Path: event:/ambience1
+  Guid:
+    Data1: -984597920
+    Data2: 1215475618
+    Data3: 1639912882
+    Data4: 1889256316
+  Banks:
+  - {fileID: -8144985360941192011}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 8000
+--- !u!114 &-4658777309840439557
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/LightsOn
+  m_EditorClassIdentifier: 
+  Path: event:/LightsOn
+  Guid:
+    Data1: -800994121
+    Data2: 1156863397
+    Data3: 181309870
+    Data4: 1681713979
+  Banks:
+  - {fileID: 1887855232869353958}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 562
+--- !u!114 &-4526870447651939774
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/JONIC/Zone
+  m_EditorClassIdentifier: 
+  Name: Zone
+  StudioPath: 
+  Min: 1
+  Max: 8
+  Default: 1
+  ID:
+    data1: 2002774617
+    data2: 1945939788
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &-4444640997772585572
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/DORIAN
+  m_EditorClassIdentifier: 
+  Path: event:/DORIAN
+  Guid:
+    Data1: -1713367275
+    Data2: 1257768345
+    Data3: 810630335
+    Data4: 152108134
+  Banks:
+  - {fileID: 6287085521676543791}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 1306393732190509312}
+  - {fileID: 270211434513636538}
+  - {fileID: 252431766544021990}
+  - {fileID: 8139016546020392891}
+  - {fileID: 7650488391827477510}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 78857
+--- !u!114 &-2817742805576281718
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -97,7 +350,7 @@ MonoBehaviour:
   - ZONE7
   - ZONE8
   Exists: 1
---- !u!114 &-7192046702144428207
+--- !u!114 &-2244369834245391749
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -107,265 +360,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/MIXOLYDIAN/FromZoneMixolydian
+  m_Name: parameter:/LOCRIO/LocrioZones
   m_EditorClassIdentifier: 
-  Name: FromZoneMixolydian
-  StudioPath: 
-  Min: 0
-  Max: 6
-  Default: 0
-  ID:
-    data1: 2992538647
-    data2: 1415342547
-  Type: 2
-  IsGlobal: 0
-  Labels:
-  - NONE
-  - ZONE1
-  - ZONE2
-  - ZONE3
-  - ZONE4
-  - ZONE5
-  - ZONE6
-  Exists: 1
---- !u!114 &-5691626869636590710
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/DORIAN/Tonality
-  m_EditorClassIdentifier: 
-  Name: Tonality
-  StudioPath: 
-  Min: 0
-  Max: 2
-  Default: 0
-  ID:
-    data1: 1850935841
-    data2: 335118098
-  Type: 2
-  IsGlobal: 0
-  Labels:
-  - Dm
-  - GM
-  - Mixed
-  Exists: 1
---- !u!114 &-5657004965981731413
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/LOCRIO
-  m_EditorClassIdentifier: 
-  Path: event:/LOCRIO
-  Guid:
-    Data1: 745258602
-    Data2: 1140806044
-    Data3: -506791489
-    Data4: 596218858
-  Banks:
-  - {fileID: 6287085521676543791}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 0
-  Parameters:
-  - {fileID: 1762042350829140319}
-  - {fileID: -8640875519490468755}
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 61746
---- !u!114 &-5127145189726933013
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/AEOLIAN/AREA
-  m_EditorClassIdentifier: 
-  Name: AREA
+  Name: LocrioZones
   StudioPath: 
   Min: 1
-  Max: 5
-  Default: 1
-  ID:
-    data1: 3095331514
-    data2: 154813111
-  Type: 1
-  IsGlobal: 0
-  Labels: []
-  Exists: 1
---- !u!114 &-4658777309840439557
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/LightsOn
-  m_EditorClassIdentifier: 
-  Path: event:/LightsOn
-  Guid:
-    Data1: -800994121
-    Data2: 1156863397
-    Data3: 181309870
-    Data4: 1681713979
-  Banks:
-  - {fileID: 1887855232869353958}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 562
---- !u!114 &-4332843107863188214
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/JONIC
-  m_EditorClassIdentifier: 
-  Path: event:/JONIC
-  Guid:
-    Data1: -625016069
-    Data2: 1245127806
-    Data3: -573332064
-    Data4: 613566082
-  Banks:
-  - {fileID: 6287085521676543791}
-  IsStream: 1
-  Is3D: 1
-  IsOneShot: 0
-  Parameters:
-  - {fileID: -828263348733621557}
-  MinDistance: 5.2000003
-  MaxDistance: 25
-  Length: 49535
---- !u!114 &-3849756536266434252
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/PHRYGIAN/Zone
-  m_EditorClassIdentifier: 
-  Name: Zone
-  StudioPath: 
-  Min: 1
-  Max: 8
-  Default: 1
-  ID:
-    data1: 2002774617
-    data2: 1945939788
-  Type: 1
-  IsGlobal: 0
-  Labels: []
-  Exists: 1
---- !u!114 &-3575471420634604071
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/AEOLIAN/FromArea
-  m_EditorClassIdentifier: 
-  Name: FromArea
-  StudioPath: 
-  Min: 0
-  Max: 5
-  Default: 0
-  ID:
-    data1: 923682737
-    data2: 1370964173
-  Type: 2
-  IsGlobal: 0
-  Labels:
-  - NONE
-  - AREA1
-  - AREA2
-  - AREA3
-  - AREA4
-  - AREA5
-  Exists: 1
---- !u!114 &-2926078789187340219
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/LYDIAN/FromZoneLydian
-  m_EditorClassIdentifier: 
-  Name: FromZoneLydian
-  StudioPath: 
-  Min: 0
   Max: 4
-  Default: 0
+  Default: 1
   ID:
-    data1: 3936072128
-    data2: 1095895368
-  Type: 2
-  IsGlobal: 0
-  Labels:
-  - NONE
-  - ZONE1
-  - ZONE2
-  - ZONE3
-  - ZONE4
-  Exists: 1
---- !u!114 &-2379210589072991279
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/DORIAN/FromMixed
-  m_EditorClassIdentifier: 
-  Name: FromMixed
-  StudioPath: 
-  Min: 0
-  Max: 1
-  Default: 0
-  ID:
-    data1: 3825955103
-    data2: 1901821664
+    data1: 3627299238
+    data2: 1726471504
   Type: 1
   IsGlobal: 0
   Labels: []
@@ -397,7 +401,123 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 423
---- !u!114 &-1719979508769602572
+--- !u!114 &-584134083294326738
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/AEOLIAN/AREA
+  m_EditorClassIdentifier: 
+  Name: AREA
+  StudioPath: 
+  Min: 1
+  Max: 5
+  Default: 1
+  ID:
+    data1: 3095331514
+    data2: 154813111
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
+  m_Name: FMODStudioCache
+  m_EditorClassIdentifier: 
+  EditorBanks:
+  - {fileID: 8123392360613930775}
+  - {fileID: -8144985360941192011}
+  - {fileID: 6287085521676543791}
+  - {fileID: -8398001353039294799}
+  - {fileID: 1887855232869353958}
+  EditorEvents:
+  - {fileID: 1771672043573664442}
+  - {fileID: -2013837172801851991}
+  - {fileID: -4658777309840439557}
+  - {fileID: -4444640997772585572}
+  - {fileID: 1576309593677376381}
+  - {fileID: 3907430413242490152}
+  - {fileID: -9061242716234211214}
+  - {fileID: 3510444473799107240}
+  - {fileID: 2920761290087438424}
+  - {fileID: 3470585564488427789}
+  - {fileID: -5623938919841156603}
+  EditorParameters: []
+  MasterBanks:
+  - {fileID: -8144985360941192011}
+  StringsBanks:
+  - {fileID: 8123392360613930775}
+  cacheVersion: 131847
+  cacheTime: 638832089655215165
+  SerializableEventsDict:
+  - key: event:/ElDiablo
+    index: 0
+  - key: event:/Steps
+    index: 1
+  - key: event:/LightsOn
+    index: 2
+--- !u!114 &252431766544021990
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/DORIAN/Zone
+  m_EditorClassIdentifier: 
+  Name: Zone
+  StudioPath: 
+  Min: 1
+  Max: 8
+  Default: 1
+  ID:
+    data1: 2002774617
+    data2: 1945939788
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &270211434513636538
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/DORIAN/FromMixed
+  m_EditorClassIdentifier: 
+  Name: FromMixed
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 3825955103
+    data2: 1901821664
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &1306393732190509312
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -424,7 +544,7 @@ MonoBehaviour:
   - Dm
   - GM
   Exists: 1
---- !u!114 &-1092629042763982623
+--- !u!114 &1576309593677376381
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -434,193 +554,25 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/PHRYGIAN
+  m_Name: event:/LOCRIO
   m_EditorClassIdentifier: 
-  Path: event:/PHRYGIAN
+  Path: event:/LOCRIO
   Guid:
-    Data1: -29650477
-    Data2: 1313228789
-    Data3: 471090055
-    Data4: 513305528
-  Banks:
-  - {fileID: 6287085521676543791}
-  IsStream: 1
-  Is3D: 1
-  IsOneShot: 0
-  Parameters:
-  - {fileID: -3849756536266434252}
-  - {fileID: -7506483663961777129}
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 93600
---- !u!114 &-828263348733621557
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/JONIC/Zone
-  m_EditorClassIdentifier: 
-  Name: Zone
-  StudioPath: 
-  Min: 1
-  Max: 8
-  Default: 1
-  ID:
-    data1: 2002774617
-    data2: 1945939788
-  Type: 1
-  IsGlobal: 0
-  Labels: []
-  Exists: 1
---- !u!114 &-10758077921873273
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/LYDIAN
-  m_EditorClassIdentifier: 
-  Path: event:/LYDIAN
-  Guid:
-    Data1: 1487895227
-    Data2: 1140383269
-    Data3: -635572860
-    Data4: -1401115335
+    Data1: 745258602
+    Data2: 1140806044
+    Data3: -506791489
+    Data4: 596218858
   Banks:
   - {fileID: 6287085521676543791}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
   Parameters:
-  - {fileID: 2531319752031038612}
-  - {fileID: -2926078789187340219}
+  - {fileID: -6190650968491045070}
+  - {fileID: -2244369834245391749}
   MinDistance: 1
   MaxDistance: 20
-  Length: 31111
---- !u!114 &11400000
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
-  m_Name: FMODStudioCache
-  m_EditorClassIdentifier: 
-  EditorBanks:
-  - {fileID: 8123392360613930775}
-  - {fileID: -8144985360941192011}
-  - {fileID: 6287085521676543791}
-  - {fileID: -8398001353039294799}
-  - {fileID: 1887855232869353958}
-  EditorEvents:
-  - {fileID: 4149085729568155786}
-  - {fileID: -5657004965981731413}
-  - {fileID: 7405808780636132577}
-  - {fileID: -10758077921873273}
-  - {fileID: -1092629042763982623}
-  - {fileID: -4332843107863188214}
-  - {fileID: 1771672043573664442}
-  - {fileID: -2013837172801851991}
-  - {fileID: -4658777309840439557}
-  - {fileID: 1739085520775846806}
-  EditorParameters: []
-  MasterBanks:
-  - {fileID: -8144985360941192011}
-  StringsBanks:
-  - {fileID: 8123392360613930775}
-  cacheVersion: 131847
-  cacheTime: 638832052681846691
-  SerializableEventsDict:
-  - key: event:/DORIAN
-    index: 0
-  - key: event:/LOCRIO
-    index: 1
-  - key: event:/MIXOLYDIAN
-    index: 2
-  - key: event:/LYDIAN
-    index: 3
-  - key: event:/PHRYGIAN
-    index: 4
-  - key: event:/JONIC
-    index: 5
-  - key: event:/ElDiablo
-    index: 6
-  - key: event:/Steps
-    index: 7
-  - key: event:/LightsOn
-    index: 8
-  - key: event:/AEOLIAN
-    index: 9
---- !u!114 &1739085520775846806
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/AEOLIAN
-  m_EditorClassIdentifier: 
-  Path: event:/AEOLIAN
-  Guid:
-    Data1: 339078599
-    Data2: 1321809615
-    Data3: -1624840808
-    Data4: -352310517
-  Banks:
-  - {fileID: 6287085521676543791}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 0
-  Parameters:
-  - {fileID: -3575471420634604071}
-  - {fileID: -5127145189726933013}
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 104000
---- !u!114 &1762042350829140319
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/LOCRIO/instruments
-  m_EditorClassIdentifier: 
-  Name: instruments
-  StudioPath: 
-  Min: 0
-  Max: 4
-  Default: 0
-  ID:
-    data1: 1604675919
-    data2: 4061397279
-  Type: 2
-  IsGlobal: 0
-  Labels:
-  - ORGAN
-  - PIANO
-  - ORGAN & PIANO
-  - ORGAN & HIGH ORGAN
-  - ALL
-  Exists: 1
+  Length: 61746
 --- !u!114 &1771672043573664442
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -663,36 +615,12 @@ MonoBehaviour:
   Path: ../fmod_project/proyectoFinal_mus/Build/Desktop/SFX.bank
   Name: SFX
   StudioPath: bank:/SFX
-  lastModified: 638831987009300663
+  lastModified: 638832088951075260
   FileSizes:
   - Name: Desktop
     Value: 60480
   Exists: 1
---- !u!114 &2531319752031038612
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/LYDIAN/Zone
-  m_EditorClassIdentifier: 
-  Name: Zone
-  StudioPath: 
-  Min: 1
-  Max: 8
-  Default: 1
-  ID:
-    data1: 2002774617
-    data2: 1945939788
-  Type: 1
-  IsGlobal: 0
-  Labels: []
-  Exists: 1
---- !u!114 &4149085729568155786
+--- !u!114 &2920761290087438424
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -702,29 +630,83 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/DORIAN
+  m_Name: event:/PHRYGIAN
   m_EditorClassIdentifier: 
-  Path: event:/DORIAN
+  Path: event:/PHRYGIAN
   Guid:
-    Data1: -1713367275
-    Data2: 1257768345
-    Data3: 810630335
-    Data4: 152108134
+    Data1: -29650477
+    Data2: 1313228789
+    Data3: 471090055
+    Data4: 513305528
   Banks:
   - {fileID: 6287085521676543791}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
   Parameters:
-  - {fileID: -1719979508769602572}
-  - {fileID: -2379210589072991279}
-  - {fileID: 4711287772756440166}
-  - {fileID: 6361466727253388307}
-  - {fileID: -5691626869636590710}
+  - {fileID: -6618364001394376893}
+  - {fileID: -2817742805576281718}
   MinDistance: 1
   MaxDistance: 20
-  Length: 78857
---- !u!114 &4711287772756440166
+  Length: 93600
+--- !u!114 &3470585564488427789
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/JONIC
+  m_EditorClassIdentifier: 
+  Path: event:/JONIC
+  Guid:
+    Data1: -625016069
+    Data2: 1245127806
+    Data3: -573332064
+    Data4: 613566082
+  Banks:
+  - {fileID: 6287085521676543791}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -4526870447651939774}
+  MinDistance: 5.2000003
+  MaxDistance: 25
+  Length: 49535
+--- !u!114 &3510444473799107240
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AEOLIAN
+  m_EditorClassIdentifier: 
+  Path: event:/AEOLIAN
+  Guid:
+    Data1: 339078599
+    Data2: 1321809615
+    Data3: -1624840808
+    Data4: -352310517
+  Banks:
+  - {fileID: 6287085521676543791}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -7340494106315047108}
+  - {fileID: -584134083294326738}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 104000
+--- !u!114 &3816194646893518343
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -734,7 +716,65 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/DORIAN/Zone
+  m_Name: parameter:/LYDIAN/FromZoneLydian
+  m_EditorClassIdentifier: 
+  Name: FromZoneLydian
+  StudioPath: 
+  Min: 0
+  Max: 4
+  Default: 0
+  ID:
+    data1: 3936072128
+    data2: 1095895368
+  Type: 2
+  IsGlobal: 0
+  Labels:
+  - NONE
+  - ZONE1
+  - ZONE2
+  - ZONE3
+  - ZONE4
+  Exists: 1
+--- !u!114 &3907430413242490152
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/MIXOLYDIAN
+  m_EditorClassIdentifier: 
+  Path: event:/MIXOLYDIAN
+  Guid:
+    Data1: 415467402
+    Data2: 1212957561
+    Data3: -1610739544
+    Data4: 80347566
+  Banks:
+  - {fileID: 6287085521676543791}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 5736741230024240858}
+  - {fileID: -6806311065046093324}
+  MinDistance: 5.2000003
+  MaxDistance: 25
+  Length: 58000
+--- !u!114 &5736741230024240858
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/MIXOLYDIAN/Zone
   m_EditorClassIdentifier: 
   Name: Zone
   StudioPath: 
@@ -763,12 +803,58 @@ MonoBehaviour:
   Path: ../fmod_project/proyectoFinal_mus/Build/Desktop/MUSICAMIGO.bank
   Name: MUSICAMIGO
   StudioPath: bank:/MUSICAMIGO
-  lastModified: 638832052681846691
+  lastModified: 638832088947362867
   FileSizes:
   - Name: Desktop
     Value: 7691296
   Exists: 1
---- !u!114 &6361466727253388307
+--- !u!114 &7650488391827477510
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/DORIAN/Tonality
+  m_EditorClassIdentifier: 
+  Name: Tonality
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1850935841
+    data2: 335118098
+  Type: 2
+  IsGlobal: 0
+  Labels:
+  - Dm
+  - GM
+  Exists: 1
+--- !u!114 &8123392360613930775
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: ../fmod_project/proyectoFinal_mus/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 638832089655215165
+  FileSizes:
+  - Name: Desktop
+    Value: 6866
+  Exists: 1
+--- !u!114 &8139016546020392891
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -788,79 +874,6 @@ MonoBehaviour:
   ID:
     data1: 797555409
     data2: 1691509736
-  Type: 1
-  IsGlobal: 0
-  Labels: []
-  Exists: 1
---- !u!114 &7405808780636132577
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/MIXOLYDIAN
-  m_EditorClassIdentifier: 
-  Path: event:/MIXOLYDIAN
-  Guid:
-    Data1: 415467402
-    Data2: 1212957561
-    Data3: -1610739544
-    Data4: 80347566
-  Banks:
-  - {fileID: 6287085521676543791}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 0
-  Parameters:
-  - {fileID: 8530112652690134615}
-  - {fileID: -7192046702144428207}
-  MinDistance: 5.2000003
-  MaxDistance: 25
-  Length: 58000
---- !u!114 &8123392360613930775
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.strings.bank
-  m_EditorClassIdentifier: 
-  Path: ../fmod_project/proyectoFinal_mus/Build/Desktop/Master.strings.bank
-  Name: Master.strings
-  StudioPath: bank:/Master.strings
-  lastModified: 638832052679647571
-  FileSizes:
-  - Name: Desktop
-    Value: 6816
-  Exists: 1
---- !u!114 &8530112652690134615
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/MIXOLYDIAN/Zone
-  m_EditorClassIdentifier: 
-  Name: Zone
-  StudioPath: 
-  Min: 1
-  Max: 8
-  Default: 1
-  ID:
-    data1: 2002774617
-    data2: 1945939788
   Type: 1
   IsGlobal: 0
   Labels: []

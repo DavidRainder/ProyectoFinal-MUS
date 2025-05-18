@@ -66,7 +66,7 @@ public class OneSongManager : MonoBehaviour
             FMOD.RESULT res= RuntimeManager.StudioSystem.getBusByID(_guids[i], out FMOD.Studio.Bus bus);
             bus.lockChannelGroup();
             RuntimeManager.StudioSystem.update();
-            yield return new WaitForEndOfFrame();
+            yield return new WaitForSeconds(0.5f);
             bus.getChannelGroup(out FMOD.ChannelGroup instanceGroup);
 
             _emitter.EventInstance.getChannelGroup(out FMOD.ChannelGroup instanceGroup_miau);

@@ -6869,6 +6869,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 79149983092612610, guid: c0a0b0e4754535a49889421e48f711c2, type: 3}
+      propertyPath: m_Name
+      value: Bass
+      objectReference: {fileID: 0}
     - target: {fileID: 786768449349988448, guid: c0a0b0e4754535a49889421e48f711c2, type: 3}
       propertyPath: m_Color.b
       value: 1
@@ -6916,6 +6920,10 @@ PrefabInstance:
     - target: {fileID: 1269393034147097120, guid: c0a0b0e4754535a49889421e48f711c2, type: 3}
       propertyPath: EventReference.Guid.Data4
       value: 596218858
+      objectReference: {fileID: 0}
+    - target: {fileID: 1407261888759025735, guid: c0a0b0e4754535a49889421e48f711c2, type: 3}
+      propertyPath: m_Name
+      value: Guitar
       objectReference: {fileID: 0}
     - target: {fileID: 1623495635878771874, guid: c0a0b0e4754535a49889421e48f711c2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7027,7 +7035,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2801571010435999357, guid: c0a0b0e4754535a49889421e48f711c2, type: 3}
       propertyPath: '_returnBusGUIDs.Array.data[0]'
-      value: 7b11ee08-5691-4058-891c-a1bad6d8e6c0
+      value: '{7b11ee08-5691-4058-891c-a1bad6d8e6c0}'
       objectReference: {fileID: 0}
     - target: {fileID: 2801571010435999357, guid: c0a0b0e4754535a49889421e48f711c2, type: 3}
       propertyPath: '_returnBusGUIDs.Array.data[1]'
@@ -7073,6 +7081,14 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: -2.7
       objectReference: {fileID: 0}
+    - target: {fileID: 3276767156852935885, guid: c0a0b0e4754535a49889421e48f711c2, type: 3}
+      propertyPath: m_Name
+      value: HighOrgan
+      objectReference: {fileID: 0}
+    - target: {fileID: 3327679424752389641, guid: c0a0b0e4754535a49889421e48f711c2, type: 3}
+      propertyPath: m_Name
+      value: Piano
+      objectReference: {fileID: 0}
     - target: {fileID: 3453832919603754700, guid: c0a0b0e4754535a49889421e48f711c2, type: 3}
       propertyPath: _value
       value: 6
@@ -7097,6 +7113,10 @@ PrefabInstance:
       propertyPath: m_Intensity
       value: 25
       objectReference: {fileID: 0}
+    - target: {fileID: 4498491848199148807, guid: c0a0b0e4754535a49889421e48f711c2, type: 3}
+      propertyPath: m_Name
+      value: Drums
+      objectReference: {fileID: 0}
     - target: {fileID: 4998908857282949045, guid: c0a0b0e4754535a49889421e48f711c2, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.01939
@@ -7120,6 +7140,10 @@ PrefabInstance:
     - target: {fileID: 5857497147000623198, guid: c0a0b0e4754535a49889421e48f711c2, type: 3}
       propertyPath: m_LocalPosition.z
       value: -0.0139
+      objectReference: {fileID: 0}
+    - target: {fileID: 6795938110806928802, guid: c0a0b0e4754535a49889421e48f711c2, type: 3}
+      propertyPath: m_Name
+      value: Organ
       objectReference: {fileID: 0}
     - target: {fileID: 6822647977506284695, guid: c0a0b0e4754535a49889421e48f711c2, type: 3}
       propertyPath: _name
