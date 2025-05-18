@@ -488,7 +488,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{3ae77168-ab51-471f-af74-eeec8b9ea993}">
 		<property name="name">
-			<value>HARP2</value>
+			<value>HARP3</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{00cd5f52-0992-46d5-88d5-cd1f0b064e0e}</destination>
@@ -722,6 +722,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{e4490961-af68-41db-b7ee-130007f9dfb1}">
+		<property name="volume">
+			<value>-3.5</value>
+		</property>
 		<property name="name">
 			<value>PICCOLO1</value>
 		</property>
